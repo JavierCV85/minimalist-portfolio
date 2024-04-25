@@ -104,15 +104,98 @@
       "url": "https://publication.com",
       "summary": "Description…"
     }],
-    "skills": [{
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    }],
+    "skills": [
+      {
+        "name": "Web Development",
+        "level": "Master",
+        "keywords": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "name": "Frontend Development",
+        "level": "Master",
+        "keywords": [
+          "React",
+          "Vue",
+          "Angular"
+        ]
+      },
+      {
+        "name": "Backend Development",
+        "level": "Master",
+        "keywords": [
+          "Node.js",
+          "Django",
+          "Flask"
+        ]
+      },
+      {
+        "name": "Database Management",
+        "level": "Master",
+        "keywords": [
+          "MySQL",
+          "PostgreSQL",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "UI/UX Design",
+        "level": "Master",
+        "keywords": [
+          "Figma",
+          "Sketch",
+          "Adobe XD"
+        ]
+      },
+      {
+        "name": "Version Control",
+        "level": "Master",
+        "keywords": [
+          "Git",
+          "SVN",
+          "Mercurial"
+        ]
+      },
+      {
+        "name": "Testing and Debugging",
+        "level": "Master",
+        "keywords": [
+          "Jest",
+          "Mocha",
+          "Selenium"
+        ]
+      },
+      {
+        "name": "Responsive Design",
+        "level": "Master",
+        "keywords": [
+          "Bootstrap",
+          "Materialize",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "name": "API Development",
+        "level": "Master",
+        "keywords": [
+          "REST",
+          "GraphQL",
+          "gRPC"
+        ]
+      },
+      {
+        "name": "DevOps",
+        "level": "Master",
+        "keywords": [
+          "Docker",
+          "Kubernetes",
+          "CI/CD"
+        ]
+      }
+    ],
     "languages": [{
       "language": "English",
       "fluency": "Native speaker"
@@ -128,14 +211,126 @@
       "name": "Jane Doe",
       "reference": "Reference…"
     }],
-    "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
-    }]
+    "projects": [
+      {
+        "name": "Portfolio Website",
+        "startDate": "2020-05-01",
+        "endDate": "2020-07-01",
+        "description": "A personal portfolio website to showcase my work and skills.",
+        "highlights": [
+          "Implemented a responsive design",
+          "Integrated with GitHub API to display real-time project data"
+        ],
+        "url": "[Portfolio Website](https://portfolio.com/)",
+        "isActive": false
+      },
+      {
+        "name": "E-commerce Platform",
+        "startDate": "2019-08-01",
+        "endDate": "2020-02-01",
+        "description": "Developed a full-featured e-commerce platform for online sales.",
+        "highlights": [
+          "Built a custom shopping cart",
+          "Implemented secure payment processing"
+        ],
+        "url": "[E-commerce Platform](https://ecommerce.com/)",
+        "isActive": false
+      },
+      {
+        "name": "Online Learning Platform",
+        "startDate": "2021-01-01",
+        "endDate": "2021-06-01",
+        "description": "Created an online platform for remote learning and course management.",
+        "highlights": [
+          "Enabled video streaming for live classes",
+          "Developed interactive quizzes and assignments"
+        ],
+        "url": "[Online Learning Platform](https://learning.com/)",
+        "isActive": true
+      },
+      {
+        "name": "Social Media Dashboard",
+        "startDate": "2020-09-01",
+        "endDate": "2021-01-01",
+        "description": "A dashboard to manage and analyze social media accounts.",
+        "highlights": [
+          "Integrated multiple social media APIs",
+          "Provided analytics and reporting features"
+        ],
+        "url": "[Social Media Dashboard](https://socialdashboard.com/)",
+        "isActive": true
+      },
+      {
+        "name": "Real Estate Listing Website",
+        "startDate": "2018-06-01",
+        "endDate": "2018-12-01",
+        "description": "A website for listing and searching for real estate properties.",
+        "highlights": [
+          "Implemented advanced search filters",
+          "Provided virtual tours of properties"
+        ],
+        "url": "[Real Estate Listing Website](https://realestate.com/)",
+        "isActive": false
+      },
+      {
+        "name": "Event Management System",
+        "startDate": "2019-03-01",
+        "endDate": "2019-09-01",
+        "description": "A system to create, manage, and promote events.",
+        "highlights": [
+          "Enabled ticket sales and registration",
+          "Built a mobile app for event updates"
+        ],
+        "url": "[Event Management System](https://events.com/)",
+        "isActive": false
+      },
+      {
+        "name": "Restaurant Reservation App",
+        "startDate": "2021-07-01",
+        "endDate": "2021-12-01",
+        "description": "An app for making restaurant reservations and ordering food.",
+        "highlights": [
+          "Integrated with Google Maps for location services",
+          "Implemented a rating and review system"
+        ],
+        "url": "[Restaurant Reservation App](https://restaurantapp.com/)",
+        "isActive": true
+      },
+      {
+        "name": "Fitness Tracker App",
+        "startDate": "2020-01-01",
+        "endDate": "2020-06-01",
+        "description": "A mobile app for tracking fitness activities and goals.",
+        "highlights": [
+          "Synced with wearable devices",
+          "Provided personalized workout plans"
+        ],
+        "url": "[Fitness Tracker App](https://fitnesstracker.com/)",
+        "isActive": true
+      },
+      {
+        "name": "Job Board Platform",
+        "startDate": "2018-01-01",
+        "endDate": "2018-07-01",
+        "description": "A platform for posting and applying for jobs.",
+        "highlights": [
+          "Implemented a resume builder",
+          "Enabled job alerts and recommendations"
+        ],
+        "url": "[Job Board Platform](https://jobboard.com/)",
+        "isActive": false
+      },
+      {
+        "name": "Music Streaming Service",
+        "startDate": "2019-11-01",
+        "endDate": "2020-05-01",
+        "description": "A service for streaming music and creating playlists.",
+        "highlights": [
+          "Enabled offline playback",
+          "Integrated social sharing features"
+        ],
+        "url": "[Music Streaming Service](https://musicstreaming.com/)",
+        "isActive": true
+      }
+    ]
   }
