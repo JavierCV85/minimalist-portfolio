@@ -18,12 +18,12 @@
         {
           "network": "LinkedIn",
           "username": "john",
-          "url": "xxx"
+          "url": "https://www.linkedin.com"
         },
         {
           "network": "GitHub",
           "username": "john",
-          "url": "xxx"
+          "url": "https://github.com/"
         }
       ]
     },
