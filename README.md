@@ -1,59 +1,33 @@
-# Astro Starter Kit: Basics
+# Minimalist Portfolio
 
-```sh
-npm create astro@latest -- --template basics
-```
+---
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Portfolio web minimalista hecho con Astro siguiendo el curso de [Midudev](https://www.youtube.com/watch?v=Zwh92LTB-Bk&ab_channel=midulive) y basado en el diseño de [BartoszJarocki](https://github.com/BartoszJarocki/cv).
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## 🛠️ Stack
 
-## 🚀 Project Structure
+- [**Astro**](https://astro.build/)
+- [**Typescript**](https://www.typescriptlang.org/)
+- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys)
+- [**Tabler Icons**](https://tablericons.com/)
 
-Inside of your Astro project, you'll see the following folders and files:
+---
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## 🧾 Funcionamiento
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+La idea es que todo el portfolio pueda actualizarse a traves de un fichero json en la raiz del proyecto.
+El json sigue el schema de [Jsonresume.org](https://jsonresume.org/schema/)
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+---
 
-Any static assets, like images, can be placed in the `public/` directory.
+## 🧞 Comandos
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
+| Comando                   | Acción                                           |
 | :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm install`             | Instalar dependencias                            |
+| `npm run dev`             | Arranca servidor local en `localhost:4321`       |
+| `npm run build`           | Compilar la versión de producción en `./dist/`   |
 
-## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
---- 
-> **Iconos:** https://tablericons.com/
-> **Json Schema:** https://jsonresume.org/schema/
-> **basado en el diseño de:** https://github.com/BartoszJarocki/cv  y https://github.com/midudev/minimalist-portfolio-json
