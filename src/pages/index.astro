@@ -19,7 +19,7 @@ const { name, label } = basics;
 		<Hero />
 		<About />
 		<Experience />
-		<!--<Education /> --> <!-- Por ahora no lo hacemos, es igual que experience -->
+		<Education />
 		<Projects />
 		<Skills />
 	</main>
@@ -31,5 +31,11 @@ const { name, label } = basics;
 		padding:4rem;
 		margin:auto;
 		width:100%;
+	}
+
+	@media (width <= 700px) {
+		main {
+		padding: 2rem;
+		}
 	}
 </style>

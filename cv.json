@@ -73,18 +73,32 @@
         "Awarded 'Volunteer of the Month'"
       ]
     }],
-    "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    }],
+    "education": [
+      {
+        "institution": "IES lalalala",
+        "url": "https://institution.com/",
+        "area": "Software Development",
+        "studyType": "Bachelor",
+        "startDate": "2011-01-01",
+        "endDate": "2013-01-01",
+        "score": "4.0",
+        "courses": [
+          "DB1101 - Basic SQL"
+        ]
+      },
+      {
+        "institution": "University",
+        "url": "https://institution.com/",
+        "area": "Software Development",
+        "studyType": "Bachelor",
+        "startDate": "2011-01-01",
+        "endDate": "2013-01-01",
+        "score": "4.0",
+        "courses": [
+          "DB1101 - Basic SQL"
+        ]
+      }
+    ],
     "awards": [{
       "title": "Award",
       "date": "2014-11-01",
@@ -222,7 +236,8 @@
           "Integrated with GitHub API to display real-time project data"
         ],
         "url": "[Portfolio Website](https://portfolio.com/)",
-        "isActive": false
+        "isActive": false,
+        "github": "www.trorlorlrorlo.com"
       },
       {
         "name": "E-commerce Platform",
