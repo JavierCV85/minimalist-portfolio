@@ -8,7 +8,7 @@
 - ✔️ add docker
 - ✔️ responsive
 - animación del footer de keyboardmanager
-- icono mapa a google maps
+- ✔️ icono mapa a google maps
 - ✔️ btn para abrir keyboardmanager en responsive
 - alinear icono github en proyectos
 - ✔️ responsive 

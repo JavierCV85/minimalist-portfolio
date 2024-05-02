@@ -20,6 +20,9 @@ const LinkedInInfo = profiles.find(({ network }) => network === "LinkedIn");
 const LinkedInUrl = LinkedInInfo?.url;
 
 const printInfo = [email, phone, LinkedInUrl].filter(Boolean).join(" • ");
+
+const place = `${city}, ${region}`.replaceAll(" ", "+")
+const mapUrl = `https://www.google.com/maps/place/${place}`
 ---
 
 <Section>
@@ -28,7 +31,18 @@ const printInfo = [email, phone, LinkedInUrl].filter(Boolean).join(" • ");
             <h1>{name}</h1>
             <h2>{label}</h2>
             <span>
-                <WorldMap />
+                {
+                    city && (
+                    <a 
+                            href={mapUrl}
+                            title={`Ver ${city}, ${region} en Google Maps`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <WorldMap />                      
+                        </a>
+                    )
+                }                
                 {city}, {region}
             </span>
             <footer class="print">
