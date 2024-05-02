@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  web:
+    build: .
+    container_name: Portfolio
+    volumes:
+      - ./dist:/var/www/html
+    ports:
+      - "8081:80"
